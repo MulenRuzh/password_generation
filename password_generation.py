@@ -4,7 +4,7 @@
 import random
 
 
-def good_password_generation(length):
+def password_generation(length):
     alphabet = (
         '0123456789'
         'abcdefghijklmnopqrstuvwxyz'
@@ -18,5 +18,5 @@ def good_password_generation(length):
        result += symbol
     return result
 
-result = good_password_generation(10)  # Количество символов в пароле
+result = password_generation(10)  # Количество символов в пароле
 print(result)
